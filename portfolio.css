@@ -1,18 +1,18 @@
-/* Resetting default browser styles */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Body styles */
+
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     background-color: #f0f0f0;
 }
 
-/* Header styles */
+
 header {
     background-color: #333;
     color: #fff;
@@ -35,7 +35,7 @@ header {
     font-style: italic;
 }
 
-/* About section styles */
+
 #about {
     background-color: #fff;
     padding: 50px 0;
@@ -72,8 +72,6 @@ header {
     font-size: 1.1rem;
     color: #444;
 }
-
-/* Skills section styles */
 #skills {
     background-color: #f9f9f9;
     padding: 50px 0;
@@ -100,7 +98,6 @@ header {
     margin-bottom: 10px;
 }
 
-/* Projects section styles */
 #projects {
     padding: 50px 0;
     text-align: center;
@@ -132,8 +129,6 @@ header {
     color: #444;
     text-align: left;
 }
-
-/* Resume section styles */
 #resume {
     background-color: #fff;
     padding: 50px 0;
@@ -168,8 +163,6 @@ header {
 .resume-container a:hover {
     background-color: #555;
 }
-
-/* Contact section styles */
 #contact {
     padding: 50px 0;
     text-align: center;
@@ -198,8 +191,6 @@ header {
 .contact-container a:hover {
     text-decoration: underline;
 }
-
-/* Footer styles */
 footer {
     background-color: #333;
     color: #fff;
@@ -209,8 +200,6 @@ footer {
     bottom: 0;
     width: 100%;
 }
-
-/* Responsive design */
 @media (max-width: 768px) {
     .about-container {
         flex-direction: column;
@@ -221,3 +210,4 @@ footer {
         margin: 0 0 20px 0;
     }
 }
+
